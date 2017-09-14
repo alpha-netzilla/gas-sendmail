@@ -22,9 +22,11 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
    
 ## Usage
 1 Click the button on "template" sheet. After the operation, check the dialogue box to confirm selected operations.
+
 ![](readme_images/usage1.png)
 
 That's all. The transmission history is stored in "log" sheet.
+
 ![](readme_images/usage2.png)
 
 
