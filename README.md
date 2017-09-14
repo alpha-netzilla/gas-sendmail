@@ -5,7 +5,7 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
 ## Before you begin
   Create a Google Spreadsheet with three seats.
 
-1 "template" sheet is a mail template. 
+1 The "template" sheet is a mail template. 
    * Create cells(TO, FROM, CC, BCC, SUBJECT, BODY) just as the image.
    * Create a button to start the script from "Insert -> Drawing" on the toolbar. 
    * Assign a script name 'click' on the button by clicking the right mouse.
@@ -13,15 +13,15 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
 
 ![](readme_images/sheet1.png)
 
-2 "rcpts" sheet which has three columns(COMPANY, NAME, MAIL_ADDRESS)is used to manage recipients.
+2 The "rcpts" sheet which has three columns(COMPANY, NAME, MAIL_ADDRESS)is used to manage recipients.
 
 ![](readme_images/sheet2.png)
 
-3 "log" sheet which has three columns(DATE, STATUS SUBJECT, TO) is used to store sent history.
+3 The "log" sheet which has three columns(DATE, STATUS SUBJECT, TO) is used to store sent history.
 
    
 ## Usage
-1 Click the button on "template" sheet. After the operation, check the dialogue box to confirm selected operations.
+1 Click the button on the "template" sheet. After the operation, check the dialogue box to confirm selected operations.
 
 ![](readme_images/usage1.png)
 
