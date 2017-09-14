@@ -3,7 +3,7 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
 
 
 
-## Before you begin
+# Before you begin
   Create a Google Spreadsheet with three seats.
 
 1 The "template" sheet is a mail template. 
@@ -24,7 +24,7 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
 
    
 
-## Usage
+# Usage
 1 Click the button on the "template" sheet. After the operation, check the dialogue box to confirm selected operations.
 
 ![](readme_images/usage1.png)
@@ -35,10 +35,10 @@ That's all. The transmission history is stored in "log" sheet.
 
 
 
-## License
+# License
 The script is available as open source under the terms of the MIT License.
 
 
 
-## Authors
+# Authors
 http://alpha-netzilla.blogspot.com/
