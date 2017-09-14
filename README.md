@@ -6,26 +6,26 @@ This is a Google App script(GAS) that send your mail data from a Google Spreadsh
   Create a Google Spreadsheet with three seats.
 
 1 "template" sheet is a mail template. 
-   * It needs to have a button to start the script. The initial script name is 'click'. You can create this button from "Insert -> Drawing" on the toolbar. Click the right mouse button on the button, and assign a script name 'click'.
+   * Create cells(TO, FROM, CC, BCC, SUBJECT, BODY) just as the image.
+   * Create a button to start the script from "Insert -> Drawing" on the toolbar. 
+   * Assign a script name 'click' on the button by clicking the right mouse.
    * Import mail.gs script from 'Tools -> Script editor' on the toolbar.
 
 ![](readme_images/sheet1.png)
 
-2 "rcpts" sheet is used to manage recipients.
+2 "rcpts" sheet which has three columns(COMPANY, NAME, MAIL_ADDRESS)is used to manage recipients.
 
 ![](readme_images/sheet2.png)
 
-3 "log" sheet is used to store sent history.
+3 "log" sheet which has three columns(DATE, STATUS SUBJECT, TO) is used to store sent history.
 
    
 ## Usage
-1 Create a template for mail on "template" sheet.
-
-2 Insert recipients you want to send mail on "rcpts" sheet.
-
-3 Click the button on "template" sheet. After the operation, check the dialogue box to confirm selected operations.
+1 Click the button on "template" sheet. After the operation, check the dialogue box to confirm selected operations.
+![](readme_images/usage1.png)
 
 That's all. The transmission history is stored in "log" sheet.
+![](readme_images/usage2.png)
 
 
 ## License
